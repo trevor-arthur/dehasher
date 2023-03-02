@@ -1,6 +1,6 @@
 package models
 
-type EmailSearchJSON struct {
+type SearchJSON struct {
 	Balance int `json:"balance"`
 	Entries []struct {
 		ID             string `json:"id"`
