@@ -28,6 +28,9 @@ func main() {
 	results := pkg.Search(query, apiEmail, apiKey)
 
 	// Print email search results
-	pkg.PrintResults(results)
+	//pkg.PrintResults(results)
+
+	// Output results into csv file
+	pkg.CSVresults(results)
 
 }
